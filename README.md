@@ -1,14 +1,11 @@
 # Exchange Rate App
 
-## Запуск проекту
-1. Клонуйте репозиторій:
-   git clone <url to your repo>
+## run project
+1. git clone git@github.com:arsensherbak/nbu_rate.git
 
-2. Перейдіть до директорії проекту:
-   cd <project-directory>
+2. cd nbu_rate
 
-3. Збудуйте Docker образ:
-   docker build -t exchange-rate-app .
+3. docker build -t exchange-rate-app .
 
-4. Запустіть Docker контейнер:
-   docker run -p 8080:80 -d exchange-rate-app
+4. docker run -p 8080:80 -d exchange-rate-app
+5. http://localhost:8080/
